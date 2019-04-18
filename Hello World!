@@ -1,0 +1,23 @@
+package helloWorld;
+
+/**
+ * This is a silly class that I built to print Hello World!
+ * 
+ * @author sugie
+ * @version Apr 10, 2019
+ */
+public class HelloWorld
+{
+    /**
+     * This is the static void main method to print out the strings.
+     * 
+     * @param args are the strings
+     */
+    public static void main(String[] args)
+    {
+        String hello = "Hello";
+        String world = "World";
+        String exclamation = "!";
+        System.out.println(hello + " " + world + exclamation);
+    }
+}
